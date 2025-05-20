@@ -23,7 +23,7 @@ markup:
       unsafe: true
 
 params:
-  title: "Nick Gresham portfolio"
+  title: "Nick Gresham Portfolio"
   description: Portfolio website for Nick Gresham
   staticPath: "."  # The path to serve the static files from
   favicon: "./ng.png"
@@ -140,6 +140,24 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+          - job: "Mechanical Design Engineer"
+        company: "XCEL Tech"
+        companyUrl: https://www.xceltech.com.au/
+        date: "Feb 2024 - present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: /project/solar-array-project/index.html
+        content: "I began working at XCEL Tech during my final semester of university. At XCEL Tech, I was involved in several key projects for both clients and the company. My primary focus was leading the design of a first-to-market mobile 22kW solar array, developed to pair with XCEL's xt-alpha energy storage solution.
+
+<p> My key achievements at Xcel Tech Include:</p>
+<ul>
+  <li>Transitioning their original stationary solar array design, into a fully portable system mounted on an 8x5 trailer.</li>
+  <li>Increasing the system's capability from 14kW to 22kW without increasing its physical size and eliminating the need for heavy machinery during its deployment.</li>
+  <li>Expanding Xcel's digital fabrication capabilities to include SLA and FDM 3D printing, as well as CNC machining and a 130W laser cutter.</li>
+</ul>
+
+<p>This work significantly advanced XCEL Tech's product offerings. [More on this in Projects.]</p>"
       - job: "Mechanical Design Engineer"
         company: "XCEL Tech"
         companyUrl: https://www.xceltech.com.au/
